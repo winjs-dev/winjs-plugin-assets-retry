@@ -54,12 +54,16 @@ export default (api: IApi) => {
         cwd: api.cwd,
         dep: 'assets-retry',
       }) || dirname(require.resolve('assets-retry/package.json'));
-  } catch (e) {}
+  } catch (_) {
+    throw new Error(
+      `Can't find assets-retry package. Please install assets-retry first.`,
+    );
+  }
 
   function checkPkgPath() {
     if (!pkgPath) {
       throw new Error(
-        `Can't find assets-retry package. Please install antd first.`,
+        `Can't find assets-retry package. Please install assets-retry first.`,
       );
     }
   }
