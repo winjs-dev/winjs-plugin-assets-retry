@@ -1,20 +1,25 @@
 {
-  "name": "winjs-plugin-template",
+  "name": "@winner-fed/plugin-assets-retry",
   "keywords": [
     "winjs",
     "plugin",
-    "template",
+    "assets-retry",
+    "static-assets",
+    "retry",
+    "cdn",
+    "failover",
+    "error-handling",
+    "resource-loading",
     "winner-fed",
-    "winjs-dev",
-    "rslib",
-    "rsbuild",
     "typescript",
-    "biome"
+    "javascript",
+    "css",
+    "frontend"
   ],
-  "version": "0.0.0",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/winjs-dev/winjs-plugin-template.git"
+    "url": "git+https://github.com/winjs-dev/winjs-plugin-assets-retry.git"
   },
   "license": "MIT",
   "type": "module",
@@ -43,6 +48,9 @@
   "simple-git-hooks": {
     "pre-commit": "npm run lint:write"
   },
+  "dependencies": {
+    "serialize-javascript": "6.0.2"
+  },
   "devDependencies": {
     "@biomejs/biome": "^2.1.1",
     "@playwright/test": "^1.53.2",
@@ -50,6 +58,7 @@
     "@rslib/core": "^0.10.4",
     "@types/node": "^22.15.34",
     "@winner-fed/winjs": "*",
+    "@types/serialize-javascript": "5.0.4",
     "playwright": "^1.53.2",
     "simple-git-hooks": "^2.13.0",
     "typescript": "^5.8.3"
@@ -58,7 +67,8 @@
     "@winner-fed/winjs": "*"
   },
   "peerDependencies": {
-    "@winner-fed/utils": "*"
+    "@winner-fed/utils": "*",
+    "assets-retry": "0.3.5"
   },
   "peerDependenciesMeta": {
     "@rsbuild/core": {
