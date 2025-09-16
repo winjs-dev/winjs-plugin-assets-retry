@@ -59,6 +59,7 @@
     "@types/node": "^22.15.34",
     "@winner-fed/winjs": "*",
     "@types/serialize-javascript": "5.0.4",
+    "bumpp": "10.2.3",
     "simple-git-hooks": "^2.13.0",
     "typescript": "^5.8.3"
   },
