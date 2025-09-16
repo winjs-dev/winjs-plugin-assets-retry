@@ -43,7 +43,7 @@
     "lint:write": "biome check . --write",
     "prepare": "simple-git-hooks && npm run build",
     "test": "playwright test",
-    "bump": "npx bumpp"
+    "bump": "bumpp"
   },
   "simple-git-hooks": {
     "pre-commit": "npm run lint:write"
@@ -76,10 +76,6 @@
     "@winner-fed/utils": {
       "optional": true
     }
-  },
-  "engines": {
-    "node": ">=22",
-    "pnpm": ">=10"
   },
   "publishConfig": {
     "access": "public",
