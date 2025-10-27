@@ -2,6 +2,7 @@ import { defineConfig } from 'win';
 
 export default defineConfig({
   plugins: ['../src'],
+  presets: [require.resolve('@winner-fed/preset-vue')],
   assetsRetry: {
     // domain list, only resources in the domain list will be retried.
     domain: ['https://www.xxxx.cn', 'https://www.xxx.cn/namespace'],
