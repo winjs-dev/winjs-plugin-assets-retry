@@ -55,7 +55,7 @@
     "@biomejs/biome": "^2.1.1",
     "@playwright/test": "^1.53.2",
     "@rsbuild/core": "^1.4.2",
-    "@rslib/core": "^0.13.0",
+    "@rslib/core": "^0.17.0",
     "@types/node": "^22.15.34",
     "@winner-fed/winjs": "*",
     "@types/serialize-javascript": "5.0.4",
