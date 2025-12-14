@@ -28,8 +28,8 @@ importers:
         specifier: ^1.4.2
         version: 1.6.14
       '@rslib/core':
-        specifier: ^0.17.0
-        version: 0.17.2(typescript@5.9.3)
+        specifier: ^0.18.0
+        version: 0.18.4(typescript@5.9.3)
       '@types/node':
         specifier: ^22.15.34
         version: 22.18.13
@@ -1193,8 +1193,8 @@ packages:
     peerDependencies:
       '@rsbuild/core': 1.x
 
-  '@rslib/core@0.17.2':
-    resolution: {integrity: sha512-AeWWC2/aOwVr7NQvXSS9FEzBzLzrOg1WMke6Gaqba5bQPGDRPplWtV1w1Y04u5bCzUs2wpofQ91fAldhFz8ShQ==}
+  '@rslib/core@0.18.4':
+    resolution: {integrity: sha512-clS7XmsO5OTrg2bJ5ahpOPNEJx7Ew/3tZ1054VPrtRgE/RuVx3umsJUKbo2U5Yugh6E023vzqD3ry0kSJqgJ7A==}
     engines: {node: '>=18.12.0'}
     hasBin: true
     peerDependencies:
@@ -3518,8 +3518,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rsbuild-plugin-dts@0.17.2:
-    resolution: {integrity: sha512-j9m3Eh4hoo22G5vsZQplYDeMedRShjp/vzVbtVMextlw/oyziGeW6BowJGmLzMr7dXLCLl0y8YdAl16v0I4Oeg==}
+  rsbuild-plugin-dts@0.18.4:
+    resolution: {integrity: sha512-ZVG3WS0VLXQD6oWDZKN2AEKbOVblFTHpYk0cisS/DpOhIODFxSxpnlYIWvc+8qOcrKOuToVqsGvK8VfJ4n+UqQ==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       '@microsoft/api-extractor': ^7
@@ -5284,10 +5284,10 @@ snapshots:
       - vue
       - webpack-cli
 
-  '@rslib/core@0.17.2(typescript@5.9.3)':
+  '@rslib/core@0.18.4(typescript@5.9.3)':
     dependencies:
       '@rsbuild/core': 1.6.14
-      rsbuild-plugin-dts: 0.17.2(@rsbuild/core@1.6.14)(typescript@5.9.3)
+      rsbuild-plugin-dts: 0.18.4(@rsbuild/core@1.6.14)(typescript@5.9.3)
     optionalDependencies:
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -8386,7 +8386,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.52.4
       fsevents: 2.3.3
 
-  rsbuild-plugin-dts@0.17.2(@rsbuild/core@1.6.14)(typescript@5.9.3):
+  rsbuild-plugin-dts@0.18.4(@rsbuild/core@1.6.14)(typescript@5.9.3):
     dependencies:
       '@ast-grep/napi': 0.37.0
       '@rsbuild/core': 1.6.14
